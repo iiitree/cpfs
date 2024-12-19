@@ -1,0 +1,3 @@
+{"level":"INFO","timestamp":"2024-12-19T00:45:55.603+0800","caller":"network/grpc_server_test.go:16","msg":"Logger initialized","debug":true,"logFile":"logs/cpfs.log"}
+{"level":"INFO","timestamp":"2024-12-19T00:45:55.631+0800","caller":"network/grpc_server.go:69","msg":"Starting gRPC server","address":"127.0.0.1:0","tls":false}
+{"level":"INFO","timestamp":"2024-12-19T00:45:56.633+0800","caller":"network/grpc_server.go:86","msg":"Stopping gRPC server","address":"127.0.0.1:0"}

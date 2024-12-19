@@ -1,0 +1,7 @@
+{"level":"INFO","timestamp":"2024-12-19T00:42:52.355+0800","caller":"logger/logger_test.go:13","msg":"Logger initialized","debug":true,"logFile":"logs/cpfs.log"}
+{"level":"DEBUG","timestamp":"2024-12-19T00:42:52.380+0800","caller":"logger/logger_test.go:22","msg":"Debug message","test":"debug"}
+{"level":"INFO","timestamp":"2024-12-19T00:42:52.381+0800","caller":"logger/logger_test.go:23","msg":"Info message","test":"info"}
+{"level":"WARN","timestamp":"2024-12-19T00:42:52.381+0800","caller":"logger/logger_test.go:24","msg":"Warn message","test":"warn","stacktrace":"cpfs/internal/logger.TestLoggerInitialization\n\tC:/code/cloud/cpfs/internal/logger/logger_test.go:24\ntesting.tRunner\n\tC:/Program Files/Go/src/testing/testing.go:1690"}
+{"level":"ERROR","timestamp":"2024-12-19T00:42:52.381+0800","caller":"logger/logger_test.go:25","msg":"Error message","test":"error","stacktrace":"cpfs/internal/logger.TestLoggerInitialization\n\tC:/code/cloud/cpfs/internal/logger/logger_test.go:25\ntesting.tRunner\n\tC:/Program Files/Go/src/testing/testing.go:1690"}
+{"level":"INFO","timestamp":"2024-12-19T00:42:52.386+0800","caller":"logger/logger_test.go:33","msg":"Logger initialized","debug":true,"logFile":"logs/cpfs.log"}
+{"level":"INFO","timestamp":"2024-12-19T00:42:52.386+0800","caller":"logger/logger_test.go:37","msg":"Test message with fields","string_field":"test","int_field":123,"bool_field":true}

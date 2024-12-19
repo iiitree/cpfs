@@ -1,0 +1,11 @@
+server_id: "meta-1"
+server_type: "meta"
+listen_address: "0.0.0.0:50051"
+data_dir: "/var/lib/storage/meta"
+meta_servers:
+  - "meta-1:50051"
+  - "meta-2:50051"
+heartbeat_interval: 5
+failure_timeout: 30
+cache_size: 1073741824  # 1GB
+cache_ttl: 300
